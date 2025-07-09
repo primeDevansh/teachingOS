@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
             printf("🍕 Craving snack: %s\n", argv[++i]);
         }
         else if (strcmp(argv[i], "-h") == 0 && i + 1 < argc) {
-            printf("🧑‍🤝‍🧑 Hi %s. Are you enjoying this session?\n");
+            printf("🧑‍🤝‍🧑 Hi %s. Are you enjoying this session?\n", argv[++i]);
         }
         else {
             printf("❓ Unknown tag: %s\n", argv[i]);
